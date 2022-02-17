@@ -1,0 +1,52 @@
+.EventItem {
+  margin:10px;
+  display:column;
+  padding: 10px;
+}
+
+.events {
+  padding: 10px;
+  margin: 10px;
+}
+
+.itemContainer {
+  display:flex;
+   flex-direction:row;
+   border: 1px solid rgb(212, 212, 212);
+   margin: 10px;
+   border-radius: 5px;
+
+}
+
+
+.whiteDate {
+  background-color: 	#e1c4ff;
+  color: white;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 120px;
+
+}
+
+.eventsTitle {
+ font-weight: 550;
+ font-size: 30px;
+ color:rgb(61, 61, 61)
+}
+
+.eventsDetails {
+  color:rgb(109, 108, 108)
+}
+
+.dayConverted {
+padding: 0px;
+margin:0px;
+margin: 20px;
+margin-bottom: 0px;
+}
+.monthConverted {
+  padding:0px;
+  margin:20px;
+  margin-top:0px;
+}

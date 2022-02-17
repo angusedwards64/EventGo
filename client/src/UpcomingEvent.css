@@ -1,0 +1,43 @@
+.nextEvent {
+  display:flex;
+  margin-top: 50px;
+  width:600px;
+  flex-direction:column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color:#e1c4ff;
+  color: white;
+  border-radius: 5px;
+}
+
+.textinput {
+  margin:10px
+}
+
+.smallDate, .boldDate {
+  margin-bottom: 2px;
+}
+
+.nextEventLabel {
+  align-self:flex-start;
+  margin:20px
+}
+
+.nextEvent {
+  align-self: flex-end;
+}
+
+.venue, .description {
+  margin-top: 2px;
+  font-weight: normal;
+
+}
+
+.smallDate {
+  font-weight:normal;
+}
+
+.venue {
+  margin-bottom: 30px;
+}
+
