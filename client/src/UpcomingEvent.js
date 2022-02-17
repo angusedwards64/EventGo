@@ -4,9 +4,6 @@ import moment from 'moment'
 
 export default function UpcomingEvent(props) {
 
-  // console.log(props)
-
-
 function converter (date) {
   return moment(date).format("Do MMM")
 }
@@ -24,10 +21,6 @@ let newEvent = props.nextOne.map(item =>
       <h6 className="venue textinput">{item.venue}</h6>
     </div>
   )
-
-  // console.log('props', props)
-
-// function renderer (item => return item)
 
   return (
     <div>
